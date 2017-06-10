@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.CharacterMain" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAARAAAQAAAAAgBAEAARAAECIAAAABgAQAAwAE=</HashCode>
+      <FileName>CharacterMain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Form1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FhAEYABCBDAIEgsgyAiBAEQCgAYBAICoAQZACRAAABA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.game" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAIAABAAAA=</HashCode>
+      <FileName>game.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.CheckCollision" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.gameForm" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAABICAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>gameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.DB_Panel" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>gameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Keyboard" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJAAgAAAAAhAAAAAAAAAAAAAAABASABAAAAAAAAAAAA=</HashCode>
+      <FileName>Keyboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.MainMenu" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACmAQBACAAHAAgCCgAEAAAAAgASIACAAAAA=</HashCode>
+      <FileName>MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.OpenClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAQAIAAAABAAgAAAAAAAAAEyAgAggQQAIAAAAA=</HashCode>
+      <FileName>OpenClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Program" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Select" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Select.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.startscreen" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBwAAAARAGAAGAAAAIiAAAACgAAkIMAgIAhAAwAAgAA=</HashCode>
+      <FileName>startscreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.time" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAICAAAIAAQAAAAICAIEAAAAAAAQAAAAA=</HashCode>
+      <FileName>time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication8.Form1" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Properties.Resources" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreetFighterXKingOfFIghter_v0._02.Properties.Settings" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StreetFighterXKingOfFIghter_v0._02.ConfigPlayer" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAACQAAAAAAAIAAAAAAIAQilAQAAAgABwAA=</HashCode>
+      <FileName>ConfigPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="StreetFighterXKingOfFIghter_v0._02.ICharacter" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharacterMain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StreetFighterXKingOfFIghter_v0._02.comma" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StreetFighterXKingOfFIghter_v0._02.IOpenClass" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAIAAAAA=</HashCode>
+      <FileName>OpenClass.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="StreetFighterXKingOfFIghter_v0._02.CharacterBody" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACQAAAAAAQRQAAQEEAAEAACABLEACAAAAAGAAAgAA=</HashCode>
+      <FileName>CharacterMain.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StreetFighterXKingOfFIghter_v0._02.character" Collapsed="true">
+    <Position X="4.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAAAAABAAAQAAEAAEAAAAAABAAAACBAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

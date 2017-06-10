@@ -1,0 +1,29 @@
+namespace StreetFighterXKingOfFighter
+{
+    public enum CharacterBody
+    {
+        Idle,
+        Right,
+        Left,
+        Jump,
+        Jumpleft,
+        Jumpright,
+        JumpPunch,
+        JumpKick,
+        Duck,
+        LowPunch,
+        HighPunch,
+        LowKick,
+        HighKick,
+        Special1,
+        Special2,
+        Desperation,
+        ThrowFront,
+        ThrowBack,
+        TookHit,
+        Drop,
+        Dead,
+        Win,
+        Lose
+    }
+}

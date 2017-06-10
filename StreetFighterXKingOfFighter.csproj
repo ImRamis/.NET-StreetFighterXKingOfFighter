@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AE6EA07-EA1F-46DB-982F-AD06D616CED2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StreetFighterXKingOfFIghter</RootNamespace>
+    <AssemblyName>StreetFighterXKingOfFIghter_</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Character.cs" />
+    <Compile Include="CharacterBody.cs" />
+    <Compile Include="CharacterMain.cs" />
+    <Compile Include="CheckCollision.cs" />
+    <Compile Include="IComma.cs" />
+    <Compile Include="ConfigPlayer.cs" />
+    <Compile Include="DB_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form1.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="ICharacter.cs" />
+    <Compile Include="IGame.cs" />
+    <Compile Include="IGameController.cs" />
+    <Compile Include="IKeyboard.cs" />
+    <Compile Include="Keyboard.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameController.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Select.cs" />
+    <Compile Include="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartScreen.Designer.cs">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Time.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartScreen.resx">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg" />
+    <Content Include="Characters\afterflash\choi.png" />
+    <Content Include="Characters\afterflash\iori.png" />
+    <Content Include="Characters\afterflash\kim.png" />
+    <Content Include="Characters\afterflash\terry.png" />
+    <Content Include="Characters\athena\idle.png" />
+    <Content Include="Characters\athena\walkfront.png" />
+    <Content Include="Characters\choi\idle.png" />
+    <Content Include="Characters\choi\walkfront.png" />
+    <Content Include="Characters\Dhalism\idle.png" />
+    <Content Include="Characters\Dhalism\walkfront.png" />
+    <Content Include="Characters\goentiz\idle 2.png" />
+    <Content Include="Characters\goentiz\idle.png" />
+    <Content Include="Characters\goentiz\walkfront.png" />
+    <Content Include="Characters\iori\idle.png" />
+    <Content Include="Characters\iori\walkfront.png" />
+    <Content Include="Characters\Ken\down kick strong.png" />
+    <Content Include="Characters\Ken\duck.png" />
+    <Content Include="Characters\Ken\idle.png" />
+    <Content Include="Characters\Ken\in wc pose.png" />
+    <Content Include="Characters\Ken\JUMP KICK 2.png" />
+    <Content Include="Characters\Ken\JUMP KICK.png" />
+    <Content Include="Characters\Ken\JUMP PUNCH 2.png" />
+    <Content Include="Characters\Ken\JUMP PUNCH.png" />
+    <Content Include="Characters\Ken\jump.png" />
+    <Content Include="Characters\Ken\jumpleft.png" />
+    <Content Include="Characters\Ken\jumpright.png" />
+    <Content Include="Characters\Ken\left.png" />
+    <Content Include="Characters\Ken\LIGHT PUNCH.png" />
+    <Content Include="Characters\Ken\low kick 2 %282%29.png" />
+    <Content Include="Characters\Ken\LOW KICK 2.png" />
+    <Content Include="Characters\Ken\low kick.png" />
+    <Content Include="Characters\Ken\right.png" />
+    <Content Include="Characters\Ken\sit kick 2 %282%29.png" />
+    <Content Include="Characters\Ken\sit kick 2.png" />
+    <Content Include="Characters\Ken\SIT KICK 4.png" />
+    <Content Include="Characters\Ken\sit kick.png" />
+    <Content Include="Characters\Ken\SIT PUNCH.png" />
+    <Content Include="Characters\Ken\stand up.png" />
+    <Content Include="Characters\Ken\STRONG PUNCH.png" />
+    <Content Include="Characters\Ken\two times in a day wc.png" />
+    <Content Include="Characters\Ken\UP KICK %282%29.png" />
+    <Content Include="Characters\Ken\up kick 2.png" />
+    <Content Include="Characters\Ken\up kick 3 %282%29.png" />
+    <Content Include="Characters\Ken\up kick 3.png" />
+    <Content Include="Characters\Ken\up kick.png" />
+    <Content Include="Characters\Ken\up pucnh.png" />
+    <Content Include="Characters\Ken\UP PUNCH %282%29.png" />
+    <Content Include="Characters\Ken\up punch.png" />
+    <Content Include="Characters\Ken\walkfront.png" />
+    <Content Include="Characters\kim\idle.png" />
+    <Content Include="Characters\kim\walkfront.png" />
+    <Content Include="Characters\Kyo\drop.png" />
+    <Content Include="Characters\Kyo\duck.png" />
+    <Content Include="Characters\Kyo\highKick.png" />
+    <Content Include="Characters\Kyo\highPunch.png" />
+    <Content Include="Characters\Kyo\Idle.png" />
+    <Content Include="Characters\Kyo\jump.png" />
+    <Content Include="Characters\Kyo\jumpKick.png" />
+    <Content Include="Characters\Kyo\jumpleft.png" />
+    <Content Include="Characters\Kyo\jumpPunch.png" />
+    <Content Include="Characters\Kyo\jumpright.png" />
+    <Content Include="Characters\Kyo\left.png" />
+    <Content Include="Characters\Kyo\lowKick.png" />
+    <Content Include="Characters\Kyo\lowPunch.png" />
+    <Content Include="Characters\Kyo\right.png" />
+    <Content Include="Characters\Kyo\tookHit.png" />
+    <Content Include="Characters\Kyo\walkfront.png" />
+    <Content Include="Characters\mai\idle 2.png" />
+    <Content Include="Characters\mai\idle.png" />
+    <Content Include="Characters\mai\walkfront.png" />
+    <Content Include="Characters\stage1.jpg" />
+    <Content Include="Characters\Terry\another kick.png" />
+    <Content Include="Characters\Terry\backward walk.png" />
+    <Content Include="Characters\Terry\duck.png" />
+    <Content Include="Characters\Terry\fall forward.png" />
+    <Content Include="Characters\Terry\flip fall backward.png" />
+    <Content Include="Characters\Terry\Idle.png" />
+    <Content Include="Characters\Terry\jump kick attacked reaction.png" />
+    <Content Include="Characters\Terry\JUMP KICK.png" />
+    <Content Include="Characters\Terry\jump punch.png" />
+    <Content Include="Characters\Terry\jumpleft.png" />
+    <Content Include="Characters\Terry\jumpright.png" />
+    <Content Include="Characters\Terry\kick reaction.png" />
+    <Content Include="Characters\Terry\NORMAL KICK 2.png" />
+    <Content Include="Characters\Terry\NORMAL PUNCH.png" />
+    <Content Include="Characters\Terry\NORMAL UP KICK.png" />
+    <Content Include="Characters\Terry\punch reaction.png" />
+    <Content Include="Characters\Terry\right.png" />
+    <Content Include="Characters\Terry\roll sit backward.png" />
+    <Content Include="Characters\Terry\sit attack.png" />
+    <Content Include="Characters\Terry\SIT KICK 2.png" />
+    <Content Include="Characters\Terry\SIT KICK.png" />
+    <Content Include="Characters\Terry\SIT PUNCH.png" />
+    <Content Include="Characters\Terry\stand after fall.png" />
+    <Content Include="Characters\Terry\straight jump.png" />
+    <Content Include="Characters\Terry\up kick 2.png" />
+    <Content Include="Characters\Terry\up kick.png" />
+    <Content Include="Characters\Terry\up punch.png" />
+    <Content Include="Characters\Terry\walkfront.png" />
+    <Content Include="poster\0.png" />
+    <Content Include="poster\1.png" />
+    <Content Include="poster\2.png" />
+    <Content Include="poster\3.png" />
+    <Content Include="poster\4.png" />
+    <Content Include="poster\5.png" />
+    <Content Include="poster\6.png" />
+    <Content Include="poster\7.png" />
+    <Content Include="poster\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

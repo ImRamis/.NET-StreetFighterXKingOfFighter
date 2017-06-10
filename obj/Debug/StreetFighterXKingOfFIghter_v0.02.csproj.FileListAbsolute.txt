@@ -1,0 +1,12 @@
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0.02.csprojResolveAssemblyReference.cache
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0._02.Form1.resources
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0._02.GameForm.resources
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0._02.MainMenu.resources
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0._02.Properties.Resources.resources
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0._02.StartScreen.resources
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0.02.csproj.GenerateResource.Cache
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\bin\Debug\StreetFighterXKingOfFIghter_v0.02.exe.config
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\bin\Debug\StreetFighterXKingOfFIghter_v0.02.exe
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\bin\Debug\StreetFighterXKingOfFIghter_v0.02.pdb
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0.02.exe
+C:\Users\aimash\Desktop\StreetFighterXKingOfFIghter_v0.02\StreetFighterXKingOfFIghter_v0.02\obj\Debug\StreetFighterXKingOfFIghter_v0.02.pdb
